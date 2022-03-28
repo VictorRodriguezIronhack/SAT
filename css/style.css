@@ -203,7 +203,7 @@ h3 {
 }
 
 section {
-    margin: 150px 0;
+    margin: 112px 0;
 }
 
 
@@ -249,9 +249,9 @@ section {
 .learn footer {
     text-align: center;
     position: absolute;
-    bottom: 20px;
+    bottom: 16px;
     width: 90%;
-    margin-left: 5%;
+    margin-left: 4%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -285,6 +285,12 @@ section {
     background: rgba(45, 197, 250, 0.3);
 }
 
+/* TEXT EXTRA */
+
+.expanded_text {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 16px;
+}
 
 /* SPECS SECTION */
 
@@ -369,8 +375,7 @@ svg * {
 /* FOOTER SECTION  */
 
 footer {
-    border-top: 1px solid #ccc;
-    padding: 40px 0;
+    padding: 32px 0;
 }
 
 footer > div > div{
