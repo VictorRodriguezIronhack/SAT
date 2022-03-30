@@ -453,6 +453,6 @@ footer img {
     }
 }
 
-[class^='BlockScroller__Root'] {
-  background: white;
+[class*="BlockScroller__Root"] {
+  background: white !important;
 }
