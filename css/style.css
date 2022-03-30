@@ -453,6 +453,6 @@ footer img {
     }
 }
 
-[class*="BlockScroller__Root"] {
+.tf-v1-widget-fullscreen {
   background: white !important;
 }
