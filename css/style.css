@@ -452,3 +452,7 @@ footer img {
         background-color: var(--ih-color);
     }
 }
+
+[class^='BlockScroller__Root'] {
+  background: white;
+}
