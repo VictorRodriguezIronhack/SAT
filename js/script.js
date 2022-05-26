@@ -41,7 +41,7 @@ window.onload = function () {
   console.log(url);
 
   //"https://summer.ironhack.com/?referal=facebook"
-  let utm_source = url.slice(37, txt.length);
+  let utm_source = url.slice(37, url.length);
 
   let att = document.getElementById("embed").attributes[6];
   console.log(att.value);
